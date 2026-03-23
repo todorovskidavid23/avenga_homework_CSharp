@@ -2,17 +2,35 @@
 
 int[] integers = new int[6];
 int sum = 0;
-for(int i = 0; i < integers.Length; i++)
-{
-    Console.WriteLine($"Enter integer no.{i+1}");
-    int input = int.Parse(Console.ReadLine());
 
-    if (input % 2 == 0)
+for (int i = 0; i < integers.Length; i++)
+{
+    Console.WriteLine($"Enter integer no.{i + 1}:");
+    integers[i] = int.Parse(Console.ReadLine());
+}
+for (int i = 0; i < integers.Length; i++)
+{
+    if (integers[i] % 2 == 0)
     {
-        sum = sum + input;
+        sum = sum + integers[i];
     }
 }
-Console.WriteLine("The result is: "+sum);
+Console.WriteLine("The result is: " + sum);
+
+
+//int[] integers = new int[6];
+//int sum = 0;
+//for(int i = 0; i < integers.Length; i++)
+//{
+//    Console.WriteLine($"Enter integer no.{i+1}");
+//    int input = int.Parse(Console.ReadLine());
+
+//    if (input % 2 == 0)
+//    {
+//        sum = sum + input;
+//    }
+//}
+//Console.WriteLine("The result is: "+sum);
 
 
 #endregion
