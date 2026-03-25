@@ -58,7 +58,13 @@ static int AgeCalculator(DateTime birthday)
     int age = today.Year - birthday.Year;
 
     //Дали датумот на раѓање е после датумот што го добиваме кога ќе се вратиме назад од денес за толку години?
-    if (birthday > today.AddYears(-age))
+    //if (birthday > today.AddYears(-age))
+    //{
+    //    age--;
+    //}
+    DateTime birthdayThisYear = new DateTime(today.Year, birthday.Month, birthday.Day);
+
+    if (birthdayThisYear > today)
     {
         age--;
     }
