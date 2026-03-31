@@ -5,4 +5,5 @@
   <Project Path="Homework.Class03/Homework.Class03.csproj" />
   <Project Path="Homework.Class04/Homework.Class04.csproj" Id="687ee411-d9e4-4c91-9b70-f7c89fd341f7" />
   <Project Path="Homework.Class05.Exercises/Homework.Class05.Exercises.csproj" Id="e78bd0a3-e70a-4175-9ebc-d9302122a202" />
+  <Project Path="Homework.Class05/Homework.Class05.csproj" Id="1f9b136c-8c14-4ab3-b1db-080cc52910e6" />
 </Solution>
